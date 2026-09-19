@@ -11,13 +11,11 @@ The objective of this project was to explore the use of convolutional neural net
 The project involved:
 
 * preparing benign and malignant skin lesion images for training and testing
-* experimenting with transfer-learning architectures
 * comparing ResNet and MobileNetV2-based approaches
-* experimenting with different output-layer configurations
 * fine-tuning MobileNetV2
 * evaluating the resulting models
 * exporting the selected trained model
-* integrating the model with a Flask web application for inference
+* integrating the model with a Flask web application 
 
 The final application allows a user to upload a skin lesion image and returns a prediction indicating whether the lesion is classified as benign or malignant.
 
@@ -54,7 +52,7 @@ The project explores transfer learning rather than training a convolutional neur
 
 Multiple model configurations were evaluated, including:
 
-* ResNet
+* ResNet-50
 * MobileNetV2 with a linear output configuration
 * MobileNetV2 with a sigmoid-based configuration
 * Fine-tuned MobileNetV2
@@ -138,7 +136,7 @@ Contains the deep-learning experimentation and model-development workflow, inclu
 * creation of benign/malignant labels
 * train/test preparation
 * transfer-learning experiments
-* ResNet experimentation
+* ResNet-50 experimentation
 * MobileNetV2 experimentation
 * model training
 * fine-tuning
@@ -233,8 +231,8 @@ The work was extended beyond image classification to:
 
 * object detection using multiple YOLOv5 variants
 * lesion localisation using bounding boxes
-* semantic segmentation using U-Net
-* experimentation with MobileNetV2 and ResNet-50 backbones
+* image segmentation using U-Net
+* experimentation with MobileNetV2 and ResNet-50 backbones for U-Net
 
 This broader work was later developed into the research paper:
 
