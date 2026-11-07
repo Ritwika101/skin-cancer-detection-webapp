@@ -160,7 +160,11 @@ It:
 
 
 ## Installation
-Install Python (3.9.1 version works)
+Install Python with a compatible version: 
+
+```bash
+3.9.1
+```
 
 Clone the repository:
 
