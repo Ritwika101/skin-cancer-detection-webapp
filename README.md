@@ -160,6 +160,7 @@ It:
 
 
 ## Installation
+Install Python (3.9.1 version works)
 
 Clone the repository:
 
